@@ -1,0 +1,231 @@
+﻿body {
+	min-width: 1920px;
+}
+.container {
+	width: 1920px;
+	background-image: url(image/5107-.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding:0;
+	font-size:0px;
+}
+.main {
+	width: 100%;
+	position: relative;
+	background-color: #0e1b1a;
+	opacity:0.75;
+	margin:0;
+}
+.FAQ {
+	width: 100%;
+	height: 25px;
+	position: absolute;
+	z-index: 1;
+	background-color: #85dad3;
+	margin:0px;
+	margin-top: 23px;
+}
+.FAQ p {
+	width: 155px;
+	height: 50px;
+	text-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	color: #ffffff;
+	font-family: Montserrat;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 40px;
+	margin-top:30px;
+}
+span {
+	width: 211px;
+	height: 44px;
+	display:inline-block;
+	vertical-align:top;
+	color: #ffffff;
+	font-family: Montserrat;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 34px;
+}
+.navbar {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: flex-end;
+	height: 80px;
+	background-color: #000000;
+	opacity: 0.75;
+}
+.navbar-brand {
+	width: 65px;
+	height: 65px;
+	display: block;
+	background-image: url(image/ptmkr-roundle-copy.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+}
+.navbar a {
+	width: 108px;
+	height: 65px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+}
+.navbar a:nth-child(1) {
+	margin-right: 1200px;
+}
+.navbar a:nth-child(2) {
+	width: 85px;
+	height: 20px;
+	border-right: 1px solid #ffffff;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.navbar a:nth-child(3) {
+	width: 130px;
+	height: 20px;
+	border-right: 1px solid #ffffff;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.navbar a:nth-child(4) {
+	width: 130px;
+	height: 20px;
+	margin-right: 20px;
+}
+.menu {
+	width: 60px;
+	height: 65px;
+	display: flex;
+	background-image: url(image/menu.png);
+	background-size: auto;
+	background-position: center;
+	background-color: #000000;
+	background-repeat: no-repeat;
+}
+.list {
+	padding-top: 147px;
+	padding-bottom: 175px;
+	margin:0;
+}
+.list li {
+	margin-left:80px;
+	margin-top: 47px;
+	display: block;
+}
+.list li::before {
+	content: "";
+	display: inline-block;
+	margin-right: 44px;
+	margin-left: 10px;
+	width: 34px;
+	height: 34px;
+	box-sizing:border-box;
+	background-image:url(image/right-arrow.png);
+	background-size: cover;
+	background-repeat:no-repeat;
+	cursor: pointer;
+}
+footer {
+	height: 178px;
+	background-color: #000000;
+	opacity: 0.85;
+}
+.social a {
+	text-decoration: none;
+	width: 35px;
+	height: 35px;
+	display:block;
+	box-sizing:border-box;
+	background-repeat:no-repeat;
+	margin-top: 41px;
+	margin-left: 20px;
+}
+.facebook {
+	background-image:url(image/facebook.png);
+}
+.instagram {
+	background-image:url(image/instagram.png);
+	margin-left:30px;
+}
+.pinterest {
+	background-image:url(image/pinterest.png);
+	margin-left:30px;
+}
+.twitter {
+	background-image: url(image/twitter.png);
+	margin-left:30px;
+}
+.youtube {
+	background-image: url(image/youtube.png);
+	margin-left:30px;
+}
+.Hello p {
+	color: #ffffff;
+	font-family: "Pragmatica Book";
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 24px;
+}
+.letter {
+	margin-top:25px;
+	margin-left: 145px;
+	height: 62px;
+	background-repeat:no-repeat;
+	background-image:url(image/mail.png);
+	background-position: center;
+}
+.letter p {
+	margin-top: 15px;
+}
+.terms p {
+	width: 140px;
+	color: #ffffff;
+	font-family: "Pragmatica Book";
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 24px;
+	margin-top: 48px;
+	margin-left: 290px;
+}
+.text-down p {
+	width: 93px;
+	color: #ffffff;
+	font-family: "Pragmatica Book";
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 24px;
+	margin-left: 20px;
+	margin-top:16px;
+	margin-bottom:53px;
+}
+.link a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.all-rights p {
+	width: 257px;
+	color: #ffffff;
+	font-family: "Pragmatica Book";
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	margin-right: 60px;
+	margin-top: 16px;
+}
+.arrow {
+	width: 35px;
+	height: 35px;
+	display: block;
+	background-color: #86dbd4;
+	border-radius: 8px;
+	background-image: url(image/arrow-point-to-right.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	margin-right:50px;
+}
